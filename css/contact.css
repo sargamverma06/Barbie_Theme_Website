@@ -1,0 +1,334 @@
+body, h1, h2, h3, h4, p, ul, li, figure {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #fde8f7; */
+    background: linear-gradient(45deg, #7ea5f1, #FF69B4);
+}
+
+/* Header Styles */
+header {
+    background-color: #fffbe0;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    position: relative;
+    height: auto;
+    width: 200px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #ffc0cb;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ff4d94;
+    font-family: 'Zilla Slab', serif;
+}
+
+/* Dropdown Menu Styles */
+nav ul li.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+nav ul li a.dropbtn {
+    padding: 10px;
+}
+
+nav ul li div.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fcfcfc;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+nav ul li div.dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #0a0000;
+}
+
+nav ul li div.dropdown-content a:hover {
+    background-color: #ff2986;
+    color: white;
+}
+
+nav ul li.dropdown:hover div.dropdown-content {
+    display: block;
+}
+
+main {
+    padding: 20px;
+    font-family: tahoma;
+}
+
+.gif {
+    width: 100%;
+}
+
+/* Styling for thank you message */
+.thank-you-message {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+/* Styling for Barbie feedback section */
+.barbie-feedback {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.barbie-feedback h3 {
+    font-size: 32px;
+    padding: 10px;
+    font-family: "Zilla Slab";
+}
+
+.barbie-stars {
+    font-size: 32px;
+    color: #9007b6;
+    display: inline-block;
+}
+
+.barbie-rating {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.barbie-review {
+    margin-top: 15px;
+}
+
+.barbie-review p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.barbie-review em {
+    font-style: italic;
+}
+
+.barbie-reviewer {
+    font-style: italic;
+    color: #413e3e;
+}
+
+/* Styling for review form */
+.barbie-review-form {
+    margin-top: 20px;
+}
+
+h4 {
+    padding: 20px 10px;
+    font-size: 25px;
+    font-family: "Zilla Slab";
+}
+
+#feedback label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#feedback input[type="text"],
+#feedback input[type="email"],
+#feedback textarea,
+#feedback select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#feedback button[type="submit"] {
+    background-color: #f448b5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.address-contact {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin: 20px 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.address-contact h3 {
+  font-size: 32px;
+  padding: 10px;
+  font-family: "Zilla Slab";
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.address-contact p {
+  font-size: 18px;
+  color: #555;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.address-contact address {
+  font-style: normal;
+  font-size: 16px;
+  color: #5e5e5e;
+}
+
+/* Styling for map container */
+.map-container {
+    margin-top: 20px;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+}
+
+/* Footer styles */
+footer {
+    position: absolute;
+    background-color: #f263a8;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.newsletter {
+    margin-bottom: 20px;
+}
+
+.newsletter h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.newsletter input[type="email"] {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ecdef2;
+    border-radius: 4px;
+}
+
+.newsletter button[type="submit"] {
+    padding: 8px 15px;
+    background-color: #ff2986;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter button[type="submit"]:hover {
+    background-color: #ff4d94;
+}
+
+.footer .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Media Queries for responsive design */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px; 
+  }
+
+  header {
+    padding: 10px; 
+  }
+
+  .logo {
+    width: 150px; 
+  }
+
+  nav {
+    padding: 5px; 
+  }
+
+  nav ul {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  nav li {
+    margin-right: 0;
+    margin-bottom: 10px; 
+  }
+
+  .barbie-feedback {
+    padding: 10px; 
+  }
+
+  .barbie-stars {
+    font-size: 24px;
+  }
+
+  .barbie-rating {
+    font-size: 16px; 
+  }
+
+  .barbie-review p {
+    padding: 5px 0; 
+  }
+
+  .map-container iframe {
+    height: 300px;
+  }
+
+  footer {
+    padding: 5px 0; 
+  }
+}
+
